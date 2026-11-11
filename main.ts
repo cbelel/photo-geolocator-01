@@ -23,7 +23,7 @@
 // ANTHROPIC_BASE_URL / ANTHROPIC_API_KEY and OPENAI_BASE_URL / OPENAI_API_KEY.
 
 const ANTHROPIC_MODEL = 'claude-sonnet-5-5';
-const OPENAI_MODEL = 'gpt-5.4';
+const OPENAI_MODEL = 'gpt-6.1-sol';
 const MAX_TOKENS = 1024;
 const CONCURRENCY = 5;
 const RETRY_STATUSES = [408, 429, 500, 502, 503, 504, 529];
